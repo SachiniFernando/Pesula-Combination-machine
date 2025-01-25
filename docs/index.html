@@ -69,6 +69,43 @@
         .pdf-link button:hover {
             background-color: #8b8c8e;
         }
+        /* Media Queries for Mobile and Tablet */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            h3 {
+                font-size: 1.3rem;
+            }
+
+            .video-description p {
+                font-size: 1rem;
+            }
+
+            .video-section {
+                margin: 5px 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.3rem;
+            }
+
+            h3 {
+                font-size: 1.1rem;
+            }
+
+            iframe {
+                max-width: 100%; /* Ensure iframe is fully responsive */
+            }
+
+            .pdf-link button {
+                font-size: 0.9rem;
+                padding: 8px 16px;
+            }
+        }
     </style>
 </head>
 <body>
